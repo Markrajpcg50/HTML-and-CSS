@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    font-size: 35px;
+    color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color:aliceblue;
+    font-size: 25;
+}
+
+h1{
+    font-size: 70px;
+    color: pink;
+}
+
+div{
+    background : green;
+    color: darkblue;
+    width: 500px;
+    height: 500px;
+}
