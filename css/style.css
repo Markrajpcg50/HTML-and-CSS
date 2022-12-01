@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-size: 35px;
+    font-size: 25px;
     color: aqua;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -8,15 +8,65 @@ p{
     color:aliceblue;
     font-size: 25;
 }
-
+.intro{
+    font-size: 20px;
+}
 h1{
     font-size: 70px;
     color: pink;
 }
 
-div{
+/* div{
     background : green;
-    color: darkblue;
+    color: yellow;
     width: 500px;
     height: 500px;
+}
+span{
+    color: red;
+    font-size: 45px;
+} */
+
+.top-section{
+    background: yellow;
+}
+
+#bottom-section{
+    background: rgb(22, 207, 201);
+}
+
+span{
+    color: black;
+}
+
+.one{
+    color: blue;
+}
+.two{
+    color: rgb(204, 0, 255);
+}
+
+/* the CSS box model*/
+/*
+Margin;
+Border;
+Padding;
+*/
+
+.box{
+    background: pink;
+    width: 300px;
+    margin: 100px 0 200px;
+    border-left: 10px yellow solid;
+    border-right: 10px red solid;
+    /*padding: 100px 50px 150px 200px;  top right bottom left*/
+    padding: 100px 100px;
+}
+
+.three{
+    color: red;
+}
+
+.four{
+    color:green;
 }
