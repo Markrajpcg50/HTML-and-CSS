@@ -1,19 +1,21 @@
 body {
-    background-color: black;
-    font-size: 25px;
-    color: aqua;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: black;
+  font-size: 25px;
+  color: aqua;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(../img/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==.jpeg);
 }
-p{
-    color:aliceblue;
-    font-size: 25;
+p {
+  color: aliceblue;
+  font-size: 25;
 }
-.intro{
-    font-size: 20px;
+.intro {
+  font-size: 20px;
 }
-h1{
-    font-size: 70px;
-    color: pink;
+h1 {
+  font-size: 70px;
+  color: pink;
 }
 
 /* div{
@@ -27,46 +29,102 @@ span{
     font-size: 45px;
 } */
 
-.top-section{
-    background: yellow;
+.top-section {
+  background: yellow;
 }
 
-#bottom-section{
-    background: rgb(22, 207, 201);
+#bottom-section {
+  background: rgb(22, 207, 201);
 }
 
-span{
-    color: black;
+span {
+  color: black;
 }
 
-.one{
-    color: blue;
+.one {
+  color: blue;
 }
-.two{
-    color: rgb(204, 0, 255);
+.two {
+  color: rgb(204, 0, 255);
 }
 
 /* the CSS box model*/
 /*
-Margin;
-Border;
-Padding;
+Margin: empty space around my element;
+Border: a border/stroke/around my element;
+Padding: empty space with background around my element ;
+all of these add on top of the width and height
 */
+/*padding: 100px 50px 150px 200px;  top right bottom left*/
 
-.box{
-    background: pink;
-    width: 300px;
-    margin: 100px 0 200px;
-    border-left: 10px yellow solid;
-    border-right: 10px red solid;
-    /*padding: 100px 50px 150px 200px;  top right bottom left*/
-    padding: 100px 100px;
+.box {
+  background-image: url(../img/025Pikachu_OS_anime_5.webp);
+  width: 400px;
+  margin: 100px;
+  padding: 100px 400px;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  background-size: cover;
+  background-position: center;
 }
 
-.three{
-    color: red;
+.three {
+  color: red;
 }
 
-.four{
-    color:green;
+.four {
+  color: green;
+}
+
+.deux {
+  background: white;
+  width: 600px;
+  margin: 100px;
+  padding: 100px;
+  border-left: 50px black solid;
+  border-right: 50px yellow solid;
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.heading1 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+.heading2 {
+  margin-top: 0px;
+  color: darkgreen;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:focus {
+  color: firebrick;
+}
+a:active {
+  color: blue;
+}
+
+.heading2 {
+  color: green;
+  background-color: aqua;
+  padding: 50px;
+}
+
+.heading2 {
 }
